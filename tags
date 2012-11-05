@@ -1,0 +1,237 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BoundaryConditions	FluxComputation.cpp	/^void CSE::FluxComputation::BoundaryConditions() {$/;"	f	class:CSE::FluxComputation
+CC	makefile	/^CC = g++$/;"	m
+CELL_H_	Cell.h	9;"	d
+CFLAGS	makefile	/^CFLAGS = -Wall -c $(DEBUG) $(INCLUDE)$/;"	m
+CFL_	RiemannSolver.h	/^	double CFL_;$/;"	m	class:CSE::RiemannSolver
+CSE	Cell.cpp	/^namespace CSE {$/;"	n	file:
+CSE	Cell.h	/^namespace CSE {$/;"	n
+CSE	Cell_test.cpp	/^namespace CSE {$/;"	n	file:
+CSE	FluxComputation.h	/^namespace CSE {$/;"	n
+CSE	FreeFunctions.h	/^namespace CSE {$/;"	n
+CSE	Godunov.cpp	/^namespace CSE {$/;"	n	file:
+CSE	Godunov.h	/^namespace CSE {$/;"	n
+CSE	HLLC.h	/^namespace CSE {$/;"	n
+CSE	RiemannSolver.cpp	/^namespace CSE {$/;"	n	file:
+CSE	RiemannSolver.h	/^namespace CSE {$/;"	n
+Cell	Cell.h	/^	Cell() {$/;"	f	class:CSE::Cell
+Cell	Cell.h	/^	Cell(double gama, double d, double p, double u, double T, double dx) :$/;"	f	class:CSE::Cell
+Cell	Cell.h	/^	Cell(double gama, double d, double p, double u, double dx) :$/;"	f	class:CSE::Cell
+Cell	Cell.h	/^	Cell(double gama, double d, double p, double u, double dx, double T,$/;"	f	class:CSE::Cell
+Cell	Cell.h	/^	Cell(double gama, double d, double p, double u, double dx, double phi,$/;"	f	class:CSE::Cell
+Cell	Cell.h	/^class Cell {$/;"	c	namespace:CSE
+ComputeCellFlux	Cell.cpp	/^void Phase::ComputeCellFlux() {$/;"	f	class:CSE::Phase
+ComputeGamas	Cell.cpp	/^void Phase::ComputeGamas() {$/;"	f	class:CSE::Phase
+Configuration1	RiemannSolver.cpp	/^void RiemannSolver::Configuration1(const unsigned left, const unsigned right) {$/;"	f	class:CSE::RiemannSolver
+Configuration2	RiemannSolver.cpp	/^void RiemannSolver::Configuration2(const unsigned left, const unsigned right) {$/;"	f	class:CSE::RiemannSolver
+Configuration2dash	RiemannSolver.cpp	/^void RiemannSolver::Configuration2dash() {$/;"	f	class:CSE::RiemannSolver
+DEBUG	makefile	/^DEBUG = -g$/;"	m
+Df_Rarefaction	RiemannSolver.cpp	/^double RiemannSolver::Df_Rarefaction(const unsigned left, const unsigned right,$/;"	f	class:CSE::RiemannSolver
+Df_Shock	RiemannSolver.cpp	/^double RiemannSolver::Df_Shock(const unsigned left, const unsigned right,$/;"	f	class:CSE::RiemannSolver
+FLUXCOMPUTATION_H_	FluxComputation.h	9;"	d
+FREEFUNCTIONS_H_	FreeFunctions.h	9;"	d
+FluxComputation	FluxComputation.h	/^	FluxComputation(const std::vector<Cell>& cell, const double& t_max) :$/;"	f	class:CSE::FluxComputation
+FluxComputation	FluxComputation.h	/^class FluxComputation {$/;"	c	namespace:CSE
+Flux_	Cell.h	/^	std::vector<double> Flux_;$/;"	m	struct:CSE::Phase
+GAS_SIZE	FreeFunctions.h	22;"	d
+GODUNOV_H_	Godunov.h	9;"	d
+Godunov	Godunov.h	/^	Godunov(std::vector<Cell> const & cell, double const & t_max) : \/\/t_max: Max. duration of execution$/;"	f	class:CSE::Godunov
+Godunov	Godunov.h	/^class Godunov: public FluxComputation {$/;"	c	namespace:CSE
+HLLC	HLLC.h	/^	HLLC(std::vector<Cell> const & cell, double const & t_max) :$/;"	f	class:CSE::HLLC
+HLLC	HLLC.h	/^class HLLC: public CSE::FluxComputation {$/;"	c	namespace:CSE
+HLLC_Flux	HLLC.cpp	/^void CSE::HLLC::HLLC_Flux(Cell& lcell, Cell& rcell, const double& ustar,$/;"	f	class:CSE::HLLC
+HLLC_H_	HLLC.h	9;"	d
+INCLUDE	makefile	/^INCLUDE = -I \/usr\/local\/include\/eigen3\/ $/;"	m
+InitializeP0	RiemannSolver.cpp	/^void RiemannSolver::InitializeP0(const double& p0, double& p_u0) {$/;"	f	class:CSE::RiemannSolver
+InitializeU0	RiemannSolver.cpp	/^void RiemannSolver::InitializeU0(const double& u0, double& u_p0) {$/;"	f	class:CSE::RiemannSolver
+InterCellFlux	Cell.cpp	/^void Phase::InterCellFlux() {$/;"	f	class:CSE::Phase
+LEFT	FreeFunctions.h	19;"	d
+LFLAGS	makefile	/^LFLAGS = -Wall $(DEBUG)$/;"	m
+MaxDX	Cell.h	/^struct MaxDX {$/;"	s	namespace:CSE
+MaxU	Cell.h	/^struct MaxU {$/;"	s	namespace:CSE
+MultiPhase	Godunov.cpp	/^void Godunov::MultiPhase(const double & CFL, unsigned phase) {$/;"	f	class:CSE::Godunov
+OBJS	makefile	/^OBJS = Cell.o FreeFunctions.o RiemannSolver.o FluxComputation.o Godunov.o main.o$/;"	m
+Phase	Cell.h	/^struct Phase {$/;"	s	namespace:CSE
+Phase_For_	Cell.h	11;"	d
+Phase_Riemann	RiemannSolver.h	/^	Phase_Riemann() {$/;"	f	struct:CSE::Phase_Riemann
+Phase_Riemann	RiemannSolver.h	/^	Phase_Riemann(double const& ul, double const& ur, double const& pl,$/;"	f	struct:CSE::Phase_Riemann
+Phase_Riemann	RiemannSolver.h	/^struct Phase_Riemann {$/;"	s	namespace:CSE
+RIEMANN_SOLVER_H_	RiemannSolver.h	9;"	d
+RIGHT	FreeFunctions.h	20;"	d
+RiemannSolver	RiemannSolver.cpp	/^RiemannSolver::RiemannSolver(const Cell& leftCell, const Cell& rightCell,$/;"	f	class:CSE::RiemannSolver
+RiemannSolver	RiemannSolver.h	/^class RiemannSolver {$/;"	c	namespace:CSE
+SOLID_SIZE	FreeFunctions.h	21;"	d
+Sample	RiemannSolver.cpp	/^void Phase_Riemann::Sample(const double& s, double& u, double& p$/;"	f	class:CSE::Phase_Riemann
+SinglePhase	Godunov.cpp	/^void Godunov::SinglePhase(const double & CFL) {$/;"	f	class:CSE::Godunov
+SolidContact	RiemannSolver.cpp	/^void RiemannSolver::SolidContact(const unsigned left_s, const unsigned right_s,$/;"	f	class:CSE::RiemannSolver
+Solve	Godunov.cpp	/^void Godunov::Solve(const double& CFL) {$/;"	f	class:CSE::Godunov
+Solve	HLLC.cpp	/^void CSE::HLLC::Solve(const double& CFL) {$/;"	f	class:CSE::HLLC
+SpecialConfiguration	RiemannSolver.cpp	/^void RiemannSolver::SpecialConfiguration() {$/;"	f	class:CSE::RiemannSolver
+T_	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+addPhase	Cell.cpp	/^void Cell::addPhase(std::map<std::string, double> phaseData) {$/;"	f	class:CSE::Cell
+c_	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+cell_	FluxComputation.h	/^	std::vector<Cell> cell_;$/;"	m	class:CSE::FluxComputation
+cl_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+cl_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_l_, gama_r_;$/;"	m	class:CSE::RiemannSolver
+computeC	Cell.cpp	/^void Phase::computeC() {$/;"	f	class:CSE::Phase
+computeConsVar	Cell.cpp	/^void Cell::computeConsVar() {$/;"	f	class:CSE::Cell
+computeConsVar	Cell.cpp	/^void Phase::computeConsVar() {$/;"	f	class:CSE::Phase
+computeDT	FluxComputation.cpp	/^void CSE::FluxComputation::computeDT(const double& CFL) {$/;"	f	class:CSE::FluxComputation
+computeDensity	RiemannSolver.cpp	/^void Phase_Riemann::computeDensity() {$/;"	f	class:CSE::Phase_Riemann
+computeE_half	Cell.cpp	/^void Phase::computeE_half() {$/;"	f	class:CSE::Phase
+computeScalFromCons	Cell.cpp	/^void Cell::computeScalFromCons() {$/;"	f	class:CSE::Cell
+computeScalFromCons	Cell.cpp	/^void Phase::computeScalFromCons() {$/;"	f	class:CSE::Phase
+consLStarVar	RiemannSolver.cpp	/^std::vector<double> RiemannSolver::consLStarVar() {$/;"	f	class:CSE::RiemannSolver
+consRStarVar	RiemannSolver.cpp	/^std::vector<double> RiemannSolver::consRStarVar() {$/;"	f	class:CSE::RiemannSolver
+consVar_	Cell.h	/^	std::vector<double> consVar_;$/;"	m	struct:CSE::Phase
+copyResult	FluxComputation.cpp	/^void CSE::FluxComputation::copyResult(std::vector<Cell>& cell) {$/;"	f	class:CSE::FluxComputation
+cr_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+cr_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_l_, gama_r_;$/;"	m	class:CSE::RiemannSolver
+d_	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+d_half	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+detachedRiemann	Godunov.cpp	/^void Godunov::detachedRiemann(Cell const & leftCell, Cell const & rightCell, const unsigned i,$/;"	f	class:CSE::Godunov
+dl_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+dl_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_l_, gama_r_;$/;"	m	class:CSE::RiemannSolver
+dr_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+dr_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_l_, gama_r_;$/;"	m	class:CSE::RiemannSolver
+dstar	RiemannSolver.h	/^	std::vector<double> ustar, pstar, dstar;$/;"	m	struct:CSE::Phase_Riemann
+dstar_l	RiemannSolver.h	/^	double ustar, pstar, dstar_l, dstar_r;$/;"	m	class:CSE::RiemannSolver
+dstar_r	RiemannSolver.h	/^	double ustar, pstar, dstar_l, dstar_r;$/;"	m	class:CSE::RiemannSolver
+dt_	FluxComputation.h	/^	double dt_;$/;"	m	class:CSE::FluxComputation
+dx_	Cell.h	/^	double dx_;$/;"	m	class:CSE::Cell
+e_	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+e_half	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+g1_	Cell.h	/^	double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase
+g1_	RiemannSolver.h	/^    double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase_Riemann
+g1_	RiemannSolver.h	/^    std::vector<double> g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	class:CSE::RiemannSolver
+g2_	Cell.h	/^	double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase
+g2_	RiemannSolver.h	/^    double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase_Riemann
+g2_	RiemannSolver.h	/^    std::vector<double> g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	class:CSE::RiemannSolver
+g3_	Cell.h	/^	double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase
+g3_	RiemannSolver.h	/^    double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase_Riemann
+g3_	RiemannSolver.h	/^    std::vector<double> g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	class:CSE::RiemannSolver
+g4_	Cell.h	/^	double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase
+g4_	RiemannSolver.h	/^    double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase_Riemann
+g4_	RiemannSolver.h	/^    std::vector<double> g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	class:CSE::RiemannSolver
+g5_	Cell.h	/^	double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase
+g5_	RiemannSolver.h	/^    double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase_Riemann
+g5_	RiemannSolver.h	/^    std::vector<double> g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	class:CSE::RiemannSolver
+g6_	Cell.h	/^	double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase
+g6_	RiemannSolver.h	/^    double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase_Riemann
+g6_	RiemannSolver.h	/^    std::vector<double> g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	class:CSE::RiemannSolver
+g7_	Cell.h	/^	double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase
+g7_	RiemannSolver.h	/^    double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase_Riemann
+g7_	RiemannSolver.h	/^    std::vector<double> g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	class:CSE::RiemannSolver
+g8_	Cell.h	/^	double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase
+g8_	RiemannSolver.h	/^    double g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	struct:CSE::Phase_Riemann
+g8_	RiemannSolver.h	/^    std::vector<double> g1_, g2_, g3_, g4_, g5_, g6_, g7_, g8_;$/;"	m	class:CSE::RiemannSolver
+gama_	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+gama_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+gama_l_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_l_, gama_r_;$/;"	m	class:CSE::RiemannSolver
+gama_r_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_l_, gama_r_;$/;"	m	class:CSE::RiemannSolver
+getC	Cell.h	/^	const double& getC() const {$/;"	f	struct:CSE::Phase
+getC	RiemannSolver.h	/^	inline double getC(unsigned const phase) {$/;"	f	struct:CSE::Phase_Riemann
+getCell	FluxComputation.h	/^	std::vector<Cell> getCell() const {$/;"	f	class:CSE::FluxComputation
+getConsVar	Cell.h	/^	const std::vector<double> & getConsVar() const {$/;"	f	struct:CSE::Phase
+getD	Cell.h	/^	const double& getD() const {$/;"	f	struct:CSE::Phase
+getD_half	Cell.h	/^	const double& getD_half() const {$/;"	f	struct:CSE::Phase
+getDt	FluxComputation.h	/^	double getDt() const {$/;"	f	class:CSE::FluxComputation
+getDx	Cell.h	/^	const double & getDx() const {$/;"	f	class:CSE::Cell
+getFlux	Cell.h	/^	const std::vector<double> & getFlux() const {$/;"	f	struct:CSE::Phase
+getG1	Cell.h	/^	const double& getG1() const {$/;"	f	struct:CSE::Phase
+getG2	Cell.h	/^	const double& getG2() const {$/;"	f	struct:CSE::Phase
+getG3	Cell.h	/^	const double& getG3() const {$/;"	f	struct:CSE::Phase
+getG4	Cell.h	/^	const double& getG4() const {$/;"	f	struct:CSE::Phase
+getG5	Cell.h	/^	const double& getG5() const {$/;"	f	struct:CSE::Phase
+getG6	Cell.h	/^	const double& getG6() const {$/;"	f	struct:CSE::Phase
+getG7	Cell.h	/^	const double& getG7() const {$/;"	f	struct:CSE::Phase
+getG8	Cell.h	/^	const double& getG8() const {$/;"	f	struct:CSE::Phase
+getGama	Cell.h	/^	const double& getGama() const {$/;"	f	struct:CSE::Phase
+getInterCellFlux	Cell.h	/^	std::vector<double> getInterCellFlux() const {$/;"	f	struct:CSE::Phase
+getMax	FluxComputation.h	/^	double getMax() const {$/;"	f	class:CSE::FluxComputation
+getP	Cell.h	/^	const double& getP() const {$/;"	f	struct:CSE::Phase
+getP_half	Cell.h	/^	const double& getP_half() const {$/;"	f	struct:CSE::Phase
+getPhase	Cell.h	/^	const std::vector<Phase> & getPhase() const {$/;"	f	class:CSE::Cell
+getPhi	Cell.h	/^	const double & getPhi() const {$/;"	f	struct:CSE::Phase
+getPstar	RiemannSolver.h	/^	double getPstar() const {$/;"	f	class:CSE::RiemannSolver
+getT	Cell.h	/^	const double& getT() const {$/;"	f	struct:CSE::Phase
+getU	Cell.h	/^	const double& getU() const {$/;"	f	struct:CSE::Phase
+getU_half	Cell.h	/^	const double& getU_half() const {$/;"	f	struct:CSE::Phase
+getUstar	RiemannSolver.h	/^	double getUstar() const {$/;"	f	class:CSE::RiemannSolver
+guessp	RiemannSolver.cpp	/^double Phase_Riemann::guessp() {$/;"	f	class:CSE::Phase_Riemann
+initializeG	RiemannSolver.cpp	/^void Phase_Riemann::initializeG(const Cell& cell, const unsigned phase) {$/;"	f	class:CSE::Phase_Riemann
+initializeG	RiemannSolver.cpp	/^void RiemannSolver::initializeG(const Cell& cell) {$/;"	f	class:CSE::RiemannSolver
+interCellFlux_	Cell.h	/^	std::vector<double> interCellFlux_;$/;"	m	struct:CSE::Phase
+main	main.cpp	/^int main() {$/;"	f
+multiphaseRiemann	Godunov.cpp	/^void Godunov::multiphaseRiemann(const Cell& leftCell, const Cell& rightCell,$/;"	f	class:CSE::Godunov
+multiphaseSolve	RiemannSolver.cpp	/^void RiemannSolver::multiphaseSolve() {$/;"	f	class:CSE::RiemannSolver
+operator ()	Cell.h	/^	bool operator()(Cell const & cell1, Cell const & cell2) const {$/;"	f	struct:CSE::MaxDX
+operator ()	Cell.h	/^	bool operator()(Cell const & cell1, Cell const & cell2) const {$/;"	f	struct:CSE::MaxU
+operator =	Cell.cpp	/^void Cell::operator =(const Cell & tmp) {$/;"	f	class:CSE::Cell
+operator =	RiemannSolver.h	/^	void operator =(Phase_Riemann const & phase) {$/;"	f	struct:CSE::Phase_Riemann
+p_	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+p_half	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+phaseNumber_	RiemannSolver.h	/^	unsigned phaseNumber_;$/;"	m	class:CSE::RiemannSolver
+phase_	Cell.h	/^	std::vector<Phase> phase_;$/;"	m	class:CSE::Cell
+phase_star_	RiemannSolver.h	/^	std::vector<Phase_Riemann> phase_star_;$/;"	m	class:CSE::RiemannSolver
+phi_	Cell.h	/^	double phi_;$/;"	m	struct:CSE::Phase
+phi_l_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+phi_r_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+pl_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+pl_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_l_, gama_r_;$/;"	m	class:CSE::RiemannSolver
+pr_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+pr_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_l_, gama_r_;$/;"	m	class:CSE::RiemannSolver
+prefun	RiemannSolver.cpp	/^void Phase_Riemann::prefun(double& f, double& fd, const double& p,$/;"	f	class:CSE::Phase_Riemann
+printPhaseValues	FreeFunctions.cpp	/^void CSE::printPhaseValues(std::string & flux,$/;"	f	class:CSE
+pstar	RiemannSolver.h	/^	double ustar, pstar, dstar_l, dstar_r;$/;"	m	class:CSE::RiemannSolver
+pstar	RiemannSolver.h	/^	std::vector<double> ustar, pstar, dstar;$/;"	m	struct:CSE::Phase_Riemann
+rarefactionWave	RiemannSolver.cpp	/^void RiemannSolver::rarefactionWave(const unsigned left, const unsigned right,$/;"	f	class:CSE::RiemannSolver
+set	RiemannSolver.h	/^	void set(double const& ul, double const& ur, double const& pl,$/;"	f	struct:CSE::Phase_Riemann
+setC	Cell.h	/^	double& setC() {$/;"	f	struct:CSE::Phase
+setCell	FluxComputation.h	/^	std::vector<Cell> & setCell() {$/;"	f	class:CSE::FluxComputation
+setConsVar	Cell.h	/^	std::vector<double> & setConsVar() {$/;"	f	struct:CSE::Phase
+setD	Cell.h	/^	double& setD() {$/;"	f	struct:CSE::Phase
+setD_half	Cell.h	/^	double& setD_half() {$/;"	f	struct:CSE::Phase
+setDt	FluxComputation.h	/^	double & setDt() {$/;"	f	class:CSE::FluxComputation
+setDx	Cell.h	/^	double & setDx() {$/;"	f	class:CSE::Cell
+setFlux	Cell.h	/^	std::vector<double> & setFlux() {$/;"	f	struct:CSE::Phase
+setG1	Cell.h	/^	double& setG1() {$/;"	f	struct:CSE::Phase
+setG2	Cell.h	/^	double& setG2() {$/;"	f	struct:CSE::Phase
+setG3	Cell.h	/^	double& setG3() {$/;"	f	struct:CSE::Phase
+setG4	Cell.h	/^	double& setG4() {$/;"	f	struct:CSE::Phase
+setG5	Cell.h	/^	double& setG5() {$/;"	f	struct:CSE::Phase
+setG6	Cell.h	/^	double& setG6() {$/;"	f	struct:CSE::Phase
+setG7	Cell.h	/^	double& setG7() {$/;"	f	struct:CSE::Phase
+setG8	Cell.h	/^	double& setG8() {$/;"	f	struct:CSE::Phase
+setGama	Cell.h	/^	double& setGama() {$/;"	f	struct:CSE::Phase
+setInterCellFlux	Cell.h	/^	std::vector<double> & setInterCellFlux() {$/;"	f	struct:CSE::Phase
+setP	Cell.h	/^	double& setP() {$/;"	f	struct:CSE::Phase
+setP_half	Cell.h	/^	double& setP_half() {$/;"	f	struct:CSE::Phase
+setPhase	Cell.h	/^	std::vector<Phase> & setPhase() {$/;"	f	class:CSE::Cell
+setPhi	Cell.h	/^	double & setPhi() {$/;"	f	struct:CSE::Phase
+setT	Cell.h	/^	double& setT() {$/;"	f	struct:CSE::Phase
+setU	Cell.h	/^	double& setU() {$/;"	f	struct:CSE::Phase
+setU_half	Cell.h	/^	double& setU_half() {$/;"	f	struct:CSE::Phase
+setValues	Cell.cpp	/^void CSE::Phase::setValues(double gama, double d, double p, double u) {$/;"	f	class:CSE::Phase
+shockWave	RiemannSolver.cpp	/^void RiemannSolver::shockWave(const unsigned left, const unsigned right,$/;"	f	class:CSE::RiemannSolver
+small	FreeFunctions.h	23;"	d
+solve	FreeFunctions.h	/^inline std::vector<double> CSE::solve(P A, Q b) {$/;"	f	class:CSE
+solve	RiemannSolver.cpp	/^void RiemannSolver::solve() {$/;"	f	class:CSE::RiemannSolver
+starpu	RiemannSolver.cpp	/^void Phase_Riemann::starpu(double& ptemp, double& utemp) {$/;"	f	class:CSE::Phase_Riemann
+t_max_	FluxComputation.h	/^	double t_max_;$/;"	m	class:CSE::FluxComputation
+timeIntegration	FluxComputation.cpp	/^void CSE::FluxComputation::timeIntegration() {$/;"	f	class:CSE::FluxComputation
+u_	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+u_half	Cell.h	/^	double gama_, d_, p_, u_, T_, u_half, d_half, p_half, c_, e_half, e_;$/;"	m	struct:CSE::Phase
+ul_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+ul_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_l_, gama_r_;$/;"	m	class:CSE::RiemannSolver
+ur_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_, phi_l_, phi_r_;$/;"	m	struct:CSE::Phase_Riemann
+ur_	RiemannSolver.h	/^	double ul_, ur_, pl_, pr_, dl_, dr_, cl_, cr_, gama_l_, gama_r_;$/;"	m	class:CSE::RiemannSolver
+ustar	RiemannSolver.h	/^	double ustar, pstar, dstar_l, dstar_r;$/;"	m	class:CSE::RiemannSolver
+ustar	RiemannSolver.h	/^	std::vector<double> ustar, pstar, dstar;$/;"	m	struct:CSE::Phase_Riemann
+variableType	FreeFunctions.h	/^std::string variableType(const A & a) {$/;"	f
+~FluxComputation	FluxComputation.h	/^	virtual ~FluxComputation() {$/;"	f	class:CSE::FluxComputation
